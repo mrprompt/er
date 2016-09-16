@@ -1,11 +1,11 @@
 'use strict';
 
-var er = (regexp, text) => {
+let er = (regexp='', text='') => {
   if (!regexp || !text) {
-    return new Error('ER ou texto inválidos.');
+    return false;
   }
 
-  var result = (new RegExp(regexp, 'g')).exec(text);
+  let result = (new RegExp(regexp, 'g')).exec(text);
   
   return result ? result.shift() : false;
 };
