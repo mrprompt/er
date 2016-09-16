@@ -1,0 +1,25 @@
+{
+  "name": "er",
+  "version": "1.0.0",
+  "description": "Test result from Regular Expression",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrprompt/er.git"
+  },
+  "keywords": [
+    "regular",
+    "expression",
+    "test",
+    "regexp"
+  ],
+  "author": "Thiago Paes <mrprompt@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mrprompt/er/issues"
+  },
+  "homepage": "https://github.com/mrprompt/er#readme"
+}
