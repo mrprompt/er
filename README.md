@@ -23,3 +23,15 @@ npm install -g er-cli
 er-cli <regexp> <text>
 ```
 
+## Sample
+```
+er-cli [0-9]+ 'Born in 1982 and...'
+```
+
+Output
+```
+1982
+```
+
+## License
+GPL-3.0
