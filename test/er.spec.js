@@ -14,7 +14,7 @@ describe('ER Tests', function() {
     it('deve disparar um objeto do tipo Error quando a ER estiver vazia', function(done) {
         var result = this.app('');
 
-        result.should.be.instanceOf(Error).and.have.property('message');;
+        result.should.be.instanceOf(Error).and.have.property('message');
 
         done();
     });
@@ -22,7 +22,7 @@ describe('ER Tests', function() {
     it('deve disparar um objeto do tipo Error quando o texto estiver vazio', function(done) {
         var result = this.app('foo');
 
-        result.should.be.instanceOf(Error).and.have.property('message');;
+        result.should.be.instanceOf(Error).and.have.property('message');
 
         done();
     });
@@ -30,7 +30,7 @@ describe('ER Tests', function() {
     it('deve disparar um objeto do tipo Error quando a ER e textos estiverem vazios', function(done) {
         var result = this.app('', '');
 
-        result.should.be.instanceOf(Error).and.have.property('message');;
+        result.should.be.instanceOf(Error).and.have.property('message');
 
         done();
     });
