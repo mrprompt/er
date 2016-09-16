@@ -27,7 +27,6 @@
     "url": "https://github.com/mrprompt/er/issues"
   },
   "dependencies": {
-    "better-console": "^0.2.4",
     "minimist": "^1.2.0"
   },
   "devDependencies": {

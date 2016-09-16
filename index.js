@@ -6,6 +6,6 @@ let er = require('./src/er');
 
 let result = er(...argv._);
 
-console.info(result);
+console.log(result);
 
 
