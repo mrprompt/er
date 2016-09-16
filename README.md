@@ -10,3 +10,16 @@ Coverage](https://codeclimate.com/github/mrprompt/er/badges/coverage.svg)](https
 Count](https://codeclimate.com/github/mrprompt/er/badges/issue_count.svg)](https://codeclimate.com/github/mrprompt/er)
 
 Test result from Regular Expression
+
+## Install
+
+```
+npm install -g er-cli
+```
+
+## Usage
+
+```
+er-cli <regexp> <text>
+```
+
