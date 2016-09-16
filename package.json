@@ -1,5 +1,5 @@
 {
-  "name": "er",
+  "name": "er-cli",
   "version": "1.0.0",
   "description": "Test result from Regular Expression",
   "main": "index.js",
@@ -37,7 +37,7 @@
     "should": "^11.1.0"
   },
   "bin": {
-    "er": "index.js"
+    "er-cli": "index.js"
   },
   "homepage": "https://github.com/mrprompt/er#readme"
 }
